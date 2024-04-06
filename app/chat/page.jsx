@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className="flex-shrink-0 p-4 flex items-center">
           <button onClick={recordAudio} className="p-2 rounded-full bg-red-500 text-white mr-2">
-            <MicrophoneIcon className="h-6 w-6" />
+            {/* <MicrophoneIcon className="h-6 w-6" /> */}
           </button>
           <form onSubmit={sendMessage} className="flex-grow">
             <input
